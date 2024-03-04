@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`inter.className bg-cyan-900`}>
-        <div className="min-w-screen h-screen flex flex-col items border border-white justify-between">
+        <div className="min-w-screen h-screen flex flex-col items  justify-between">
           <div className="flex flex-col items-center">
             <header className="">
               <Header />
