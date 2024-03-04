@@ -25,7 +25,9 @@ export default function RootLayout({
               <Header />
             </header>
 
-            <main className=" flex flex-col items-center mt-4">{children}</main>
+            <main className=" flex flex-col items-center mt-10">
+              {children}
+            </main>
           </div>
 
           <div className="footer-container mb-0">
