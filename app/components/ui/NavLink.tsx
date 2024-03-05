@@ -12,7 +12,7 @@ export const NavLink: React.FC = () => {
     <>
       {links.map((link) => (
         <li key={link.id} className="mr-4">
-          <Link href={link.href} className="text-3xl">
+          <Link href={link.href} className="text-2xl">
             <span
               className={
                 pathname === link.href ? "text-cyan-600" : "text-slate-300"

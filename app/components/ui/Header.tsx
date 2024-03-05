@@ -17,7 +17,7 @@ const Header = () => {
             width={75}
             height={75}
           />
-          <h1 className="text-6xl font-bold text-sky-400 w-full">
+          <h1 className="text-5xl font-bold text-sky-400 w-full">
             Pet Care Data
           </h1>{" "}
         </div>

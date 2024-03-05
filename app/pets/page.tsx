@@ -1,7 +1,9 @@
+import PetGame from "./PetGame";
+
 const Pets: React.FC = () => {
   return (
-    <section className="w-4/12 border-2 border-slate-700 rounded flex flex-col  items-center mt-5 p-5">
-      <h3 className="text-3xl  text-sky-400">Pets Page</h3>
+    <section className="w-screen h-screen rounded flex flex-col  items-center mt-5 p-5">
+      <h5 className="text-xl text-sky-400">Pets</h5>
     </section>
   );
 };

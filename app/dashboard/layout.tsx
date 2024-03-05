@@ -7,7 +7,10 @@ const DashboardLayout: React.FC = ({
 }) => {
   return (
     <div className="flex w-screen h-screen justify-center border ">
-      <main className="w-1/2">{children}</main>
+      <aside>
+        <SidePanel />
+      </aside>
+      <main className="w-1/2 border border-green">{children}</main>
     </div>
   );
 };

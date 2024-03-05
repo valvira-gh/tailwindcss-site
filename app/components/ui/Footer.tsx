@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-screen flex flex-col items-center mb-0 border border-cyan-600 bg-cyan-950 pt-2">
+    <footer className="w-screen flex flex-col items-center mb-0 border-t border-cyan-600 bg-cyan-900 pt-2">
       <div className="flex items-center">
         <Link href="https://github.com/valvira-gh/tailwindcss-site">
           <Image src="/gh_icon.png" alt="GitHub logo" width={50} height={50} />

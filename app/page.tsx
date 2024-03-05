@@ -1,6 +1,6 @@
 const HomePage: React.FC = () => {
   return (
-    <div className="w-4/12   flex flex-col  items-start p-5">
+    <div className=" flex flex-col  items-start p-5 mt-2">
       <h3 className="text-3xl  text-sky-400 mb-2">What is Pet Care Data?</h3>
       <p className="text-xl text-slate-300 mt-2">
         Pet Care Data is a web application that allows you to track the health

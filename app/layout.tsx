@@ -18,14 +18,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`inter.className bg-cyan-900`}>
+      <body className={`inter.className bg-cyan-950`}>
         <div className="min-w-screen h-screen flex flex-col items  justify-between">
-          <div className="flex flex-col items-center">
-            <header className="">
+          <div className="flex flex-col items-center w-dcreen">
+            <header className="border-b border-cyan-600 bg-cyan-900">
               <Header />
             </header>
 
-            <main className=" flex flex-col items-center mt-10">
+            <main className="main w-1/2 flex flex-col items-center  bg-cyan-900 p-10">
               {children}
             </main>
           </div>
